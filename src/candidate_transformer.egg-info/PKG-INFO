@@ -64,7 +64,7 @@ python3 main.py \
   --output outputs/custom_result.json
 ```
 
-The custom config demonstrates runtime projection. It renames/selects fields such as:
+The custom config demonstrates runtime projection. It renames/select s fields such as:
 
 - `name`
 - `title`

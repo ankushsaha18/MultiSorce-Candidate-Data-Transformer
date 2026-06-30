@@ -46,3 +46,165 @@
 2026-06-30 16:13:42,350 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF file is malformed or unreadable: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_handles_0/bad.pdf: No /Root object! - Is this really a PDF?
 2026-06-30 16:13:42,353 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF file contains no extractable text: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_handles_1/blank.pdf
 2026-06-30 16:13:42,353 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_handles_1/blank.pdf resume PDF has no usable candidate values
+2026-06-30 20:13:36,081 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:13:36,081 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:13:36,083 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:13:36,083 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:13:36,083 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:13:36,086 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:13:36,136 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:13:36,142 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:13:36,144 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.json
+2026-06-30 20:20:21,878 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:20:21,878 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:20:21,881 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:20:21,881 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:20:21,883 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:20:21,885 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:20:21,935 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:20:21,938 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:20:21,940 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.json
+2026-06-30 20:32:13,131 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:32:13,131 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:32:13,135 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:32:13,135 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:32:13,136 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:32:13,139 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:32:13,193 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:32:13,197 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:32:13,199 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.json
+2026-06-30 20:39:01,024 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:39:01,024 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:39:01,028 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:39:01,028 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:39:01,029 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:39:01,032 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:39:01,083 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:39:01,086 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:39:01,088 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.json
+2026-06-30 20:46:42,726 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:46:42,727 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:46:42,730 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:46:42,730 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:46:42,731 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:46:42,735 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:46:42,784 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:46:42,787 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:46:42,789 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.json
+2026-06-30 20:47:58,179 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:47:58,180 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:47:58,183 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:47:58,183 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:47:58,184 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:47:58,188 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:47:58,241 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:47:58,245 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:47:58,247 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 20:48:27,481 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:48:27,481 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:48:27,482 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:48:27,482 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:48:27,482 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:48:27,485 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:48:27,534 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:48:27,536 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:48:27,538 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 20:50:05,997 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:50:05,997 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:50:05,999 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:50:05,999 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:50:05,999 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:50:06,002 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:50:06,051 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:50:06,054 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:50:06,055 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 20:51:56,326 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:51:56,326 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:51:56,329 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:51:56,329 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:51:56,331 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:51:56,333 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:51:56,383 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:51:56,386 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:51:56,387 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 20:53:26,302 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:53:26,302 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:53:26,303 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:53:26,303 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:53:26,304 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:53:26,306 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:53:26,355 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:53:26,357 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:53:26,358 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 20:54:37,051 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:54:37,052 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:54:37,053 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:54:37,053 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:54:37,053 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:54:37,055 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:54:37,104 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:54:37,106 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:54:37,108 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 20:55:27,534 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 20:55:27,534 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 20:55:27,537 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 20:55:27,537 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 20:55:27,539 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 20:55:27,542 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 20:55:27,593 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 20:55:27,596 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 20:55:27,598 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 21:01:46,928 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 21:01:46,929 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 21:01:46,932 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 21:01:46,932 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 21:01:46,934 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 21:01:46,937 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 21:01:46,986 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 21:01:46,989 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 21:01:46,991 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 21:03:02,339 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 21:03:02,339 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 21:03:02,343 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 21:03:02,343 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 21:03:02,344 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 21:03:02,347 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 21:03:02,397 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 21:03:02,400 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 21:03:02,402 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 21:04:23,513 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 21:04:23,513 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 21:04:23,515 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 21:04:23,515 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 21:04:23,515 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 21:04:23,517 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 21:04:23,566 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 21:04:23,569 INFO [candidate_transformer.app.cli] Loading projection config: configs/default_projection.json
+2026-06-30 21:04:23,571 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/result.js
+2026-06-30 21:06:54,517 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 21:06:54,517 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 21:06:54,518 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 21:06:54,518 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 21:06:54,519 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 21:06:54,521 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 21:06:54,571 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 21:06:54,573 INFO [candidate_transformer.app.cli] Loading projection config: configs/custom_projection.json
+2026-06-30 21:06:54,575 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/custom_result.json
+2026-06-30 21:08:17,309 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 21:08:17,309 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 21:08:17,312 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 21:08:17,312 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 21:08:17,314 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 21:08:17,317 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 21:08:17,370 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 21:08:17,374 INFO [candidate_transformer.app.cli] Loading projection config: configs/custom_projection.json
+2026-06-30 21:08:17,375 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/custom_result.json
+2026-06-30 21:09:54,259 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 21:09:54,259 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 21:09:54,261 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 21:09:54,261 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 21:09:54,261 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 21:09:54,264 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 21:09:54,322 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 21:09:54,324 INFO [candidate_transformer.app.cli] Loading projection config: configs/custom_projection.json
+2026-06-30 21:09:54,325 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/custom_result.json
