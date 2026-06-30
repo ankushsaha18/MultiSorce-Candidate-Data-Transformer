@@ -1,0 +1,48 @@
+2026-06-30 16:13:18,582 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 16:13:18,583 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: samples/recruiter_csv/ankush_saha.csv
+2026-06-30 16:13:18,586 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: name
+2026-06-30 16:13:18,586 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV samples/recruiter_csv/ankush_saha.csv is missing expected column: title
+2026-06-30 16:13:18,587 INFO [candidate_transformer.app.cli] Parsing resume PDF: samples/resume_pdf/ankush_saha.pdf
+2026-06-30 16:13:18,596 WARNING [pdfminer.pdffont] Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-06-30 16:13:18,662 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 16:13:18,665 INFO [candidate_transformer.app.cli] Loading projection config: configs/custom_projection.json
+2026-06-30 16:13:18,666 INFO [candidate_transformer.app.cli] Wrote projected output: outputs/custom_result.json
+2026-06-30 16:13:42,300 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 16:13:42,300 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_writes_projected_outp0/recruiter.csv
+2026-06-30 16:13:42,301 INFO [candidate_transformer.app.cli] Merging 1 source record(s)
+2026-06-30 16:13:42,302 INFO [candidate_transformer.app.cli] Loading projection config: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_writes_projected_outp0/projection.json
+2026-06-30 16:13:42,303 INFO [candidate_transformer.app.cli] Wrote projected output: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_writes_projected_outp0/result.json
+2026-06-30 16:13:42,305 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 16:13:42,305 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_handles_no_usable_rec0/missing.csv
+2026-06-30 16:13:42,305 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV file does not exist: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_handles_no_usable_rec0/missing.csv
+2026-06-30 16:13:42,305 WARNING [candidate_transformer.app.cli] No usable records parsed from inputs
+2026-06-30 16:13:42,306 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 16:13:42,306 WARNING [candidate_transformer.app.cli] No input sources provided
+2026-06-30 16:13:42,309 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 16:13:42,309 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_merges_csv_and_resume0/recruiter.csv
+2026-06-30 16:13:42,310 INFO [candidate_transformer.app.cli] Parsing resume PDF: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_merges_csv_and_resume0/resume.pdf
+2026-06-30 16:13:42,313 INFO [candidate_transformer.app.cli] Merging 2 source record(s)
+2026-06-30 16:13:42,313 INFO [candidate_transformer.app.cli] Loading projection config: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_merges_csv_and_resume0/projection.json
+2026-06-30 16:13:42,314 INFO [candidate_transformer.app.cli] Wrote projected output: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_merges_csv_and_resume0/result.json
+2026-06-30 16:13:42,316 DEBUG [candidate_transformer.config.logging] Logging configured from configs/logging.yaml
+2026-06-30 16:13:42,316 INFO [candidate_transformer.app.cli] Parsing recruiter CSV: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_handles_invalid_proje0/recruiter.csv
+2026-06-30 16:13:42,316 INFO [candidate_transformer.app.cli] Merging 1 source record(s)
+2026-06-30 16:13:42,317 INFO [candidate_transformer.app.cli] Loading projection config: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_cli_handles_invalid_proje0/projection.json
+2026-06-30 16:13:42,317 WARNING [candidate_transformer.app.cli] Projection failed: unsupported projected type: bogus
+2026-06-30 16:13:42,337 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_logs_0/partial.csv is missing expected column: current_company
+2026-06-30 16:13:42,337 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_logs_0/partial.csv is missing expected column: phone
+2026-06-30 16:13:42,337 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_logs_0/partial.csv is missing expected column: title
+2026-06-30 16:13:42,339 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl0/unknown.csv is missing expected column: current_company
+2026-06-30 16:13:42,339 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl0/unknown.csv is missing expected column: email
+2026-06-30 16:13:42,339 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl0/unknown.csv is missing expected column: name
+2026-06-30 16:13:42,339 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl0/unknown.csv is missing expected column: phone
+2026-06-30 16:13:42,339 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl0/unknown.csv is missing expected column: title
+2026-06-30 16:13:42,339 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl0/unknown.csv has no recognizable candidate columns
+2026-06-30 16:13:42,340 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV file is empty: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl1/empty.csv
+2026-06-30 16:13:42,340 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV file does not exist: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl2/missing.csv
+2026-06-30 16:13:42,341 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV file could not be decoded as text: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_handl3/malformed.csv: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2026-06-30 16:13:42,343 WARNING [candidate_transformer.sources.recruiter_csv] Recruiter CSV /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_recruiter_csv_prese0/blank_row.csv row 2 has no usable candidate values
+2026-06-30 16:13:42,349 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF file does not exist: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_logs_mis0/missing.pdf
+2026-06-30 16:13:42,350 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF file is malformed or unreadable: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_handles_0/bad.pdf: No /Root object! - Is this really a PDF?
+2026-06-30 16:13:42,353 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF file contains no extractable text: /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_handles_1/blank.pdf
+2026-06-30 16:13:42,353 WARNING [candidate_transformer.sources.resume_pdf] Resume PDF /private/var/folders/5x/z13d44gx20g46bp4qnq6n42w0000gn/T/pytest-of-ankushsaha/pytest-26/test_parse_resume_pdf_handles_1/blank.pdf resume PDF has no usable candidate values

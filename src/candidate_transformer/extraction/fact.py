@@ -1,0 +1,1 @@
+"""Extracted fact model placeholder."""

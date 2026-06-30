@@ -1,0 +1,2 @@
+[console_scripts]
+candidate-transformer = candidate_transformer.app.cli:main

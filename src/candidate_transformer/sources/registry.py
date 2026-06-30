@@ -1,0 +1,1 @@
+"""Source adapter registry placeholder."""

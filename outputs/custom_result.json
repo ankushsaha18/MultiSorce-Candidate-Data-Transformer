@@ -1,0 +1,29 @@
+{
+  "confidence": {
+    "name": 0.95,
+    "primary_email": 0.925,
+    "primary_phone": 0.925,
+    "title": 0.95,
+    "top_skills": 0.95
+  },
+  "name": "ANKUSH SAHA",
+  "overall_confidence": 0.9483,
+  "primary_email": "ankushsaha806@gmail.com",
+  "primary_phone": "+917047545975",
+  "title": "Computer Science and Engineering Student",
+  "top_skills": [
+    "C++",
+    "Git",
+    "GitHub",
+    "Java",
+    "Kaggle",
+    "Linux",
+    "Machine Learning",
+    "Next.js",
+    "Python",
+    "React.js",
+    "Scikit-learn",
+    "SQL",
+    "TensorFlow"
+  ]
+}

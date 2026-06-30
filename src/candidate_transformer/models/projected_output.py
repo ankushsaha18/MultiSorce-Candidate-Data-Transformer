@@ -1,0 +1,1 @@
+"""Projected output model placeholder."""

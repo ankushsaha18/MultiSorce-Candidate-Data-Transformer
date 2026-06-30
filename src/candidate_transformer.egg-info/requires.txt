@@ -1,0 +1,10 @@
+PyYAML<7.0.0,>=6.0.2
+jsonschema<5.0.0,>=4.23.0
+pydantic<3.0.0,>=2.8.0
+pandas<3.0.0,>=2.2.0
+pdfplumber<1.0.0,>=0.11.0
+phonenumbers<9.0.0,>=8.13.0
+
+[dev]
+pytest<9.0.0,>=8.0.0
+reportlab<5.0.0,>=4.2.0

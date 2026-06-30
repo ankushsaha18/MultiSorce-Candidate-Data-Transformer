@@ -1,0 +1,15 @@
+app:
+  name: candidate-transformer
+  environment: local
+
+paths:
+  samples_dir: samples
+  outputs_dir: outputs
+  schemas_dir: schemas
+
+pipeline:
+  default_projection_config: configs/default_projection.json
+  fail_fast: false
+
+logging:
+  config_path: configs/logging.yaml

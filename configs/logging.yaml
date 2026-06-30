@@ -1,0 +1,31 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  standard:
+    format: "%(asctime)s %(levelname)s [%(name)s] %(message)s"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: standard
+    stream: ext://sys.__stdout__
+  file:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: standard
+    filename: outputs/logs/transformer.log
+    encoding: utf-8
+
+root:
+  level: INFO
+  handlers:
+    - console
+    - file
+
+loggers:
+  candidate_transformer:
+    level: DEBUG
+    propagate: true
+    handlers: []
